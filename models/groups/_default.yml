@@ -1,0 +1,96 @@
+name: _default
+priority: 1000
+html_color: "#08c"
+badge_text_color: none
+web_permissions:
+  site:
+    login: true
+  forum:
+    parent:
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: own
+        index_parent: all
+        index:
+          status:
+            locked: all
+            hidden: own
+        view_parent: all
+        create: true
+        reply: all
+        hide: own
+      post:
+        view_parent: all
+        hide: own
+        edit_parent: own
+  punishment:
+    view:
+      type:
+        warn: own
+        kick: all
+        ban: all
+        forum_warn: own
+        forum_ban: all
+        tourney_ban: all
+      status:
+        stale: own
+        inactive: all
+        automatic: all
+        contested: all
+    index:
+      type:
+        warn: own
+        kick: all
+        ban: all
+        forum_warn: own
+        forum_ban: all
+        tourney_ban: all
+      status:
+        inactive: own
+        automatic: all
+        contested: all
+        stale: own
+    distinguish_status:
+      inactive: all
+      automatic: all
+      contested: own
+  report:
+    create: true
+    index: own
+    view: own
+    comment: own
+    action_on_escalated:
+      comment: own
+  appeal:
+    create: true
+    view: own
+    comment: own
+    index: own
+    action_on_closed:
+      comment: own
+      escalate: own
+    action_on_escalated:
+      comment: own
+  tournament:
+    participate: true
+  map:
+    rating:
+      view:
+        public: all
+        private: own
+    phase:
+      production:
+        view: all
+      development:
+        view: own
+    download: own
+minecraft_permissions:
+  global:
+  - mutation.list
+  - ocn.login
+  - "-commandbook.slay"
+  - "-minecraft.command.me"
+  - "-minecraft.command.tell"
+  - setting.nick

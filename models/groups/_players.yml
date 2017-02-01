@@ -1,0 +1,37 @@
+name: _Players
+priority: 1000
+minecraft_permissions:
+  global:
+  - "-worldedit.navigation.jumpto.tool"
+  - "-worldedit.navigation.thru.tool"
+  - "-bukkit.command.kill"
+  - "-bukkit.command.me"
+  - "-bukkit.command.tell"
+  - "-commandbook.pong"
+  - "-commandbook.speed.flight"
+  - "-commandbook.speed.walk"
+  - chat.global.receive
+  - commandbook.motd
+  - commandbook.msg
+  - commandbook.rules
+  - commandbook.time.check
+  - commandbook.who
+  - nocheatplus.checks.moving.boatsanywhere
+  - pgm.chat.report
+  - pgm.class
+  - pgm.class.list
+  - pgm.class.select
+  - pgm.join
+  - pgm.myteam
+  - projectares.lookup
+  - projectares.lookup.type.ban
+  - projectares.lookup.type.forum_ban
+  - projectares.lookup.type.forum_warn.own
+  - projectares.lookup.type.kick
+  - projectares.lookup.type.tourney_ban
+  - projectares.lookup.type.warn.own
+  - projectares.rate
+  - projectares.rating
+  - projectares.register
+  - projectares.report
+  - projectares.seen
